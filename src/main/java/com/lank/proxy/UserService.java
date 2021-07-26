@@ -1,8 +1,12 @@
 package com.lank.proxy;
+
+import org.springframework.stereotype.Service;
+
 /**
  * @author lank
  * @since 2021/7/21 20:31
  */
+@Service
 public class UserService implements IUserService{
 
     public UserVO login(String username, String password) {
