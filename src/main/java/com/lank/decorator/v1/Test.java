@@ -7,13 +7,13 @@ package com.lank.decorator.v1;
 public class Test {
     public static void main(String[] args) {
         Battercake battercake = new Battercake();
-        System.out.println(battercake.getDesc()+" 消费价格:"+battercake.cost());
+        System.out.println(battercake.getDesc()+" 销售价格:"+battercake.cost());
 
         Battercake battercakeWithEgg = new BattercakeWithEgg();
-        System.out.println(battercakeWithEgg.getDesc()+" 消费价格:"+battercakeWithEgg.cost());
+        System.out.println(battercakeWithEgg.getDesc()+" 销售价格:"+battercakeWithEgg.cost());
 
         Battercake battercakeWithEggAndSausage = new BattercakeWithEggAndSausage();
-        System.out.println(battercakeWithEggAndSausage.getDesc()+" 消费价格:"+battercakeWithEggAndSausage.cost());
+        System.out.println(battercakeWithEggAndSausage.getDesc()+" 销售价格:"+battercakeWithEggAndSausage.cost());
 
     }
 }
